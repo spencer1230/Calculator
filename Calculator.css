@@ -62,16 +62,18 @@ block {
     cursor: pointer;
     color: blue;
     filter: brightness(100%);
-    
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.9);
+    text-transform: uppercase;
 }
 
 #close { 
- float : right; 
- margin-right: 5%; 
- background-color: #cc0000; 
- width: 15%; 
- height: 50%; 
- font-size: 0.9em; 
- font-family:"Lucida Console", Verdana, Arial; 
+float: right;
+margin-right: 5%;
+background-color: #cc0000;
+width: 20%;
+height: 80%;
+font-size: 0.9em;
+font-family: "Lucida Console", Verdana, Arial;
+margin-top: 2%;
 }
 
