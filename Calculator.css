@@ -1,0 +1,77 @@
+block { 
+ width: 100%; 
+ height: 100%;
+    
+} 
+ 
+#calculatorBody { 
+ width: 400px; 
+ height: 600px; 
+ border: 12px ridge #803333; 
+ background-color: #333333; 
+ text-align: center; 
+    top: 5%;
+    left: 40%;
+    position: fixed;
+}
+
+#displaySection { 
+ width : 99.5%; 
+ height : 20%; 
+ background-color : Crimson; 
+ margin : 2px;
+}
+
+
+.buttonRow { 
+ width : 99%; 
+ height: 15.6%; 
+ background-color : RoyalBlue; 
+ margin : 2px;
+ opacity: 0.5;    
+}
+
+.buttonRow input {
+    border-style: ridge;
+    border-color: Azure;
+    }
+
+#displaySection input { 
+ width : 90%; 
+ height : 70%; 
+ background-color : #ffffff; 
+ margin : 10px; 
+ text-align : right; 
+}
+
+#display {
+    font-size: 3em;
+}
+
+.numberButton { 
+ width : 20%; 
+ height : 80%; 
+ background-color : #000000; 
+ float : left; 
+ margin: 2%; 
+ color: white; 
+ font-size: 1.2em; 
+ font-family: 'Audiowide', cursive;
+}
+.numberButton:hover {
+    cursor: pointer;
+    color: blue;
+    filter: brightness(100%);
+    
+}
+
+#close { 
+ float : right; 
+ margin-right: 5%; 
+ background-color: #cc0000; 
+ width: 15%; 
+ height: 50%; 
+ font-size: 0.9em; 
+ font-family:"Lucida Console", Verdana, Arial; 
+}
+
